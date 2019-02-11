@@ -1,0 +1,107 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require foundation_and_overrides
+
+ */
+ body{
+  background-color: black;
+  background-image: url("W8TGorrila.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  height: 4em;
+  color: #C41E3A;
+  font-size: 65px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.auth-container {
+  width: 350px;
+  margin: 50px auto;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.auth-container label {
+  color: #fff;
+}
+
+.auth-container input {
+  background: #333;
+  color: #ddd;
+  border: none;
+}
+
+.auth-container input:focus {
+  color: #222;
+}
+
+.auth-container input[type="submit"] {
+  background: #C41E3A;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  min-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+}
+
+.auth-container h2 {
+  color: #C41E3A;
+}
+
+a,
+.top-bar-section .right a {
+  color: #C41E3A;
+}
+
+.pass-container {
+  width: 350px;
+  margin: 50px auto;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.pass-container label {
+  color: #fff;
+}
+
+.pass-container  h2 {
+  color: #C41E3A;
+}
+
+.pass-container input[type="submit"] {
+  background: #C41E3A;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 10px;
+  border: none;
+  min-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+}
+
+.pass-container {
+
+}
